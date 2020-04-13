@@ -16,6 +16,7 @@ build
 .project
 /bin/
 /Libs/
+/settings/
 /.settings/
 /.classpath
 .svn/
