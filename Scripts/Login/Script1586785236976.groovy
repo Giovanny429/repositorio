@@ -27,3 +27,5 @@ WebUI.setText(findTestObject('Page_Digital Bank/usuario'), 'andres@gmail.com')
 
 WebUI.setText(findTestObject('Page_Digital Bank/contrasenia'), 'Andres2012')
 
+WebUI.click(findTestObject('Page_Digital Bank/botonIngreso'))
+

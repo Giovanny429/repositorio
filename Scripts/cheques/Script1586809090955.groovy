@@ -15,3 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Page_Digital Bank/menuChecking'))
+
+WebUI.click(findTestObject('Page_Digital Bank/verCheques'))
+
+WebUI.click(findTestObject('Page_Digital Bank/nuevoCheque'))
+
