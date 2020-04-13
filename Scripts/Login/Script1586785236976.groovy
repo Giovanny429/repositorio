@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://dbankdemo.com/login')
 
+WebUI.delay(5)
+
 WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(0)
