@@ -15,9 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_Digital Bank/menuChecking'))
+WebUI.click(findTestObject('cheques/menuChecking'))
 
-WebUI.click(findTestObject('Page_Digital Bank/verCheques'))
+WebUI.click(findTestObject('cheques/nuevoCheque'))
 
-not_run: WebUI.click(findTestObject('Page_Digital Bank/nuevoCheque'))
+WebUI.click(findTestObject('cheques/tipocuenta'))
+
+WebUI.click(findTestObject('cheques/tiposeleccion'))
+
+WebUI.setText(findTestObject('cheques/nombreConsignar'), 'Marlon ')
+
+WebUI.setText(findTestObject('cheques/montoConsignar'), '255424')
+
+WebUI.click(findTestObject('cheques/botondegenerar'))
 

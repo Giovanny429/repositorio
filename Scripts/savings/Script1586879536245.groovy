@@ -29,3 +29,5 @@ WebUI.setText(findTestObject('Savings/depositoInicial'), '10000')
 
 WebUI.click(findTestObject('Savings/botonAgregarNewSavings'))
 
+WebUI.closeBrowser()
+
