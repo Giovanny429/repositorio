@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_Digital Bank/menuChecking'))
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Digital Bank/verCheques'))
+WebUI.callTestCase(findTestCase('cheques'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Page_Digital Bank/nuevoCheque'))
+WebUI.callTestCase(findTestCase('savings'), [:], FailureHandling.STOP_ON_FAILURE)
 
